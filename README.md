@@ -30,8 +30,8 @@ Ao completar este treinamento, você será capaz de:
 ```bash
 # 1. Faça um fork deste repositório DA BRANCH MAIN
 # 2. Clone seu fork localmente usando SSH
-git clone git@github.com:SEU-USUARIO/fake-project.git
-cd fake-project
+git clone git@github.com:SEU-USUARIO/Curso-Git.git
+cd Curso-Git
 ```
 
 **⚠️ Importante:** Sempre faça o fork da branch `main`, que é a branch de produção estável. A branch `develop` será criada localmente após a inicialização do Git Flow.
