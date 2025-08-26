@@ -14,6 +14,7 @@ Este arquivo lista todos os contribuidores do projeto de treinamento Git/GitHub 
 | Luan Costa | Projetos | Rasec |
 | Marlon Meireles | Projetos | Maexar |
 | Nicolas Brunismann | Acessor Projetos | NicoDemosaS |
+| Rafaela Nunes | Estudante | rafasyk |
 
 ---
 
@@ -36,3 +37,4 @@ Para adicionar seu nome à lista de contributors:
 ---
 
 *Obrigado por contribuir com o projeto! 🎉*
+
