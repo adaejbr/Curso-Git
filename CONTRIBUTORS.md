@@ -14,7 +14,7 @@ Este arquivo lista todos os contribuidores do projeto de treinamento Git/GitHub 
 | Luan Costa | Projetos | Rasec |
 | Marlon Meireles | Projetos | Maexar |
 | Nicolas Brunismann | Acessor Projetos | NicoDemosaS |
-
+| Carlos Lima | Membro da Presidencia | carlosslima |
 ---
 
 ## 📝 Como adicionar seu nome
