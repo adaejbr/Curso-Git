@@ -60,6 +60,7 @@ cat ~/.ssh/id_ed25519.pub
 # Instale git-flow (se necessário)
 # Ubuntu/Debian: sudo apt-get install git-flow
 # macOS: brew install git-flow
+# Windows: wget -q -O - --no-check-certificate https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | bash
 
 # Inicialize git-flow no projeto (aceite as configurações padrão)
 git flow init
