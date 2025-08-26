@@ -30,7 +30,7 @@ Ao completar este treinamento, você será capaz de:
 ```bash
 # 1. Faça um fork deste repositório DA BRANCH MAIN
 # 2. Clone seu fork localmente usando SSH
-git clone git@github.com:SEU-USUARIO/Curso-Git.git
+git clone https://github.com/adaejbr/Curso-Git.git
 cd Curso-Git
 ```
 
