@@ -3,9 +3,6 @@
 **Descrição para GitHub:**
 > Projeto educacional para membros da empresa júnior Ada praticarem Git, GitHub e Git Flow. Inclui exercícios práticos de versionamento, colaboração e padrões de desenvolvimento profissional.
 
-
-Meu Nome é: Kali gomes;
-
 ## 📋 Sobre o Projeto
 
 Este é um projeto de treinamento desenvolvido especificamente para membros da **empresa júnior Ada** aprimorarem seus conhecimentos em:
