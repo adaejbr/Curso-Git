@@ -4,7 +4,7 @@ Este arquivo lista todos os contribuidores do projeto de treinamento Git/GitHub 
 
 ## 🚀 Membros da Equipe
 
-### 2025
+### 2026
 
 | Nome | Cargo | Nick |
 |------|-------|------|
@@ -16,6 +16,7 @@ Este arquivo lista todos os contribuidores do projeto de treinamento Git/GitHub 
 | Nicolas Brunismann | Acessor Projetos | NicoDemosaS |
 | Ana Vitória Apolinario | Diretora RH | anavp111 |
 | João Victor Gomes | Presidente | garra400 |
+| Habner Gabryel Correa | Dev | habner-gabryel |
 
 ---
 
@@ -38,5 +39,3 @@ Para adicionar seu nome à lista de contributors:
 ---
 
 *Obrigado por contribuir com o projeto! 🎉*
-
-michel initial commit
