@@ -16,7 +16,7 @@ Este arquivo lista todos os contribuidores do projeto de treinamento Git/GitHub 
 | Nicolas Brunismann | Acessor Projetos | NicoDemosaS |
 | Ana Vitória Apolinario | Diretora RH | anavp111 |
 | João Victor Gomes | Presidente | garra400 |
-
+| Evandro Grichok | Treinee Projetos | eventolunar |
 ---
 
 ## 📝 Como adicionar seu nome
