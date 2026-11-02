@@ -141,7 +141,7 @@ Se você encontrar a mensagem `'git flow' is not a git command`, significa que o
 4. **Trabalhe na `develop`** → branch principal para desenvolvimento.
 5. **Features, Releases, Hotfixes** → criadas a partir da `develop`.
 
-## 📚 Exercícios Práticos
+## 📚 Exercícios Práticos de conflitos
 
 ### **Nível Iniciante**
 1. **Primeiro Commit**: Adicione seu nome ao arquivo `CONTRIBUTORS.md`
