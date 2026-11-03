@@ -1,6 +1,7 @@
 # 🎯 Projeto de Treinamento Git/GitHub - Ada EJ
 
 **Descrição para GitHub:**
+
 > Projeto educacional para membros da empresa júnior Ada praticarem Git, GitHub e Git Flow Next. Inclui exercícios práticos de versionamento, colaboração e padrões de desenvolvimento profissional.
 
 ## 📋 Sobre o Projeto
@@ -16,6 +17,7 @@ Este é um projeto de treinamento desenvolvido especificamente para membros da *
 
 Ao completar este treinamento, você será capaz de:
 
+- [ ] Criação do novo site do Gov
 - [ ] Criar e gerenciar repositórios Git
 - [ ] Trabalhar com branches usando Git Flow Next
 - [ ] Fazer commits seguindo convenções profissionais
@@ -27,6 +29,7 @@ Ao completar este treinamento, você será capaz de:
 ## 🚀 Como Começar
 
 ### 1. **Fork e Clone**
+
 ```bash
 # 1. Faça um fork deste repositório DA BRANCH MAIN
 # 2. Clone seu fork localmente (preferencialmente via SSH)
@@ -37,6 +40,7 @@ cd Curso-Git
 **⚠️ Importante:** Sempre faça o fork da branch `main`, que é a branch de produção estável. A branch `develop` será criada localmente após a inicialização do Git Flow Next.
 
 ### 2. **Configuração Inicial**
+
 ```bash
 # Configure seu Git (se ainda não fez)
 git config --global user.name "Seu Nome"
@@ -63,12 +67,12 @@ cat ~/.ssh/id_ed25519.pub
 
 Antes de instalar o `git-flow-next`, você precisa ter o **Git** instalado e funcionando no seu Windows.
 
-*   **Git para Windows**: Baixe a versão mais recente no [site oficial](https://git-scm.com/downloads/win). Durante a instalação, recomenda‑se manter as opções padrão, que incluem o **Git Bash**.
-*   **Verifique a instalação**: Abra um terminal (**PowerShell**, **Prompt de Comando** ou **Git Bash**) e execute:
-    ```bash
-    git --version
-    ```
-    Se o comando retornar a versão do Git (ex: `git version 2.47.1.windows.1`), você está pronto para seguir.
+- **Git para Windows**: Baixe a versão mais recente no [site oficial](https://git-scm.com/downloads/win). Durante a instalação, recomenda‑se manter as opções padrão, que incluem o **Git Bash**.
+- **Verifique a instalação**: Abra um terminal (**PowerShell**, **Prompt de Comando** ou **Git Bash**) e execute:
+  ```bash
+  git --version
+  ```
+  Se o comando retornar a versão do Git (ex: `git version 2.47.1.windows.1`), você está pronto para seguir.
 
 ---
 
@@ -77,27 +81,37 @@ Antes de instalar o `git-flow-next`, você precisa ter o **Git** instalado e fun
 O Winget é o gerenciador de pacotes oficial da Microsoft. É a forma mais simples e recomendada pela equipe do `git-flow-next` para usuários Windows.
 
 ### 1. Instale o Winget (geralmente já vem com o Windows 10/11)
+
 Caso não tenha, baixe o [App Installer](https://apps.microsoft.com/detail/9nblggh4nns1) da Microsoft Store.
 
 ### 2. Instale o `git-flow-next`
+
 Abra o **PowerShell** (como usuário comum, não precisa ser administrador) e execute:
+
 ```powershell
 winget install GitTower.GitFlowNext
 ```
+
 Este comando baixará e instalará automaticamente a versão mais recente do `git-flow-next`.
 
 ### 3. Verifique a instalação
+
 Após a conclusão, feche e reabra o terminal (ou inicie uma nova sessão do PowerShell) e execute:
+
 ```bash
 git flow version
 ```
+
 Se tudo ocorreu bem, você verá a versão do `git-flow-next`.
 
 ### 4. Inicie no seu repositório
+
 Entre no repositório onde deseja usar o Git Flow e execute:
+
 ```bash
 git flow init
 ```
+
 Siga as instruções interativas para configurar os nomes das branches (ou aceite os padrões).
 
 ---
@@ -107,18 +121,23 @@ Siga as instruções interativas para configurar os nomes das branches (ou aceit
 Independentemente do método escolhido, após a instalação você pode confirmar que o `git-flow-next` está funcionando corretamente.
 
 1. **Teste o comando principal:**
+
    ```bash
    git flow version
    ```
+
    Exemplo de saída esperada:
+
    ```
    git-flow-next version 0.9.1
    ```
 
 2. **Inicialize o Git Flow em um repositório:**
+
    ```bash
    git flow init
    ```
+
    O comando irá perguntar sobre os nomes das branches principais (`main` e `develop`). Você pode aceitar os valores padrão pressionando `Enter`.
 
 3. **Crie sua primeira feature:**
@@ -128,13 +147,15 @@ Independentemente do método escolhido, após a instalação você pode confirma
    Isso criará e trocará automaticamente para a branch `feature/minha-feature` baseada na `develop`.
 
 Se você encontrar a mensagem `'git flow' is not a git command`, significa que o executável `git-flow.exe` não foi encontrado. Verifique:
-*   Se você está usando um terminal novo após a instalação.
-*   Se o diretório onde `git-flow.exe` foi colocado está realmente na variável `PATH`.
-*   No caso da instalação manual, certifique‑se de que o arquivo foi renomeado para `git-flow.exe`.
+
+- Se você está usando um terminal novo após a instalação.
+- Se o diretório onde `git-flow.exe` foi colocado está realmente na variável `PATH`.
+- No caso da instalação manual, certifique‑se de que o arquivo foi renomeado para `git-flow.exe`.
 
 ---
 
 **📝 Fluxo de Trabalho:**
+
 1. **Fork da `main`** → repositório estável.
 2. **Clone local** → sua cópia de trabalho.
 3. **`git flow init`** → cria a estrutura de branches.
@@ -144,16 +165,19 @@ Se você encontrar a mensagem `'git flow' is not a git command`, significa que o
 ## 📚 Exercícios Práticos
 
 ### **Nível Iniciante**
+
 1. **Primeiro Commit**: Adicione seu nome ao arquivo `CONTRIBUTORS.md`
 2. **Branching**: Crie uma branch `feature/meu-nome-introducao`
 3. **Pull Request**: Abra um PR com sua introdução
 
 ### **Nível Intermediário**
+
 4. **Git Flow Next Feature**: Use `git flow feature start minha-funcionalidade` para criar uma nova feature.
 5. **Conflitos**: Resolva conflitos intencionais criados.
 6. **Histórico**: Use `git log`, `git blame` e `git show`.
 
 ### **Nível Avançado**
+
 7. **Release**: Crie uma release usando `git flow release start v1.0.0` e depois finalize com `git flow release finish v1.0.0`.
 8. **Hotfix**: Simule e corrija um bug crítico com `git flow hotfix start correcao-urgente`.
 9. **Comandos Abreviados (Shorthands)**: Pratique comandos como `git flow finish` que, em uma branch `feature`, executam `git flow feature finish` automaticamente.
@@ -161,6 +185,7 @@ Se você encontrar a mensagem `'git flow' is not a git command`, significa que o
 ## 🛠️ Comandos Essenciais
 
 ### **Git Básico**
+
 ```bash
 git status                 # Ver status do repositório
 git add .                  # Adicionar arquivos ao staging
@@ -170,6 +195,7 @@ git pull origin main       # Atualizar branch local
 ```
 
 ### **Git Flow Next**
+
 ```bash
 # Inicialização
 git flow init                         # Inicialização interativa padrão
@@ -191,7 +217,9 @@ git flow publish                      # Publica a branch atual no repositório r
 ## 📝 Convenções do Projeto
 
 ### **Commits**
+
 Use o padrão conventional commits:
+
 ```
 feat: adiciona nova funcionalidade
 fix: corrige bug específico
@@ -202,6 +230,7 @@ test: adiciona ou corrige testes
 ```
 
 ### **Branches**
+
 - `main`: Branch principal (produção)
 - `develop`: Branch de desenvolvimento
 - `feature/nome-da-feature`: Novas funcionalidades
@@ -209,6 +238,7 @@ test: adiciona ou corrige testes
 - `hotfix/nome-do-fix`: Correções críticas
 
 ### **Pull Requests**
+
 - Título claro e descritivo
 - Descrição detalhada das mudanças
 - Referencie issues relacionadas
@@ -250,4 +280,4 @@ test: adiciona ou corrige testes
 
 **Última atualização:** 18 de maio de 2026
 
-*Projeto mantido pela empresa júnior Ada para fins educacionais.*
+_Projeto mantido pela empresa júnior Ada para fins educacionais._
