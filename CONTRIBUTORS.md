@@ -6,17 +6,18 @@ Este arquivo lista todos os contribuidores do projeto de treinamento Git/GitHub 
 
 ### 2025
 
-| Nome | Cargo | Nick |
-|------|-------|------|
-| Pedro Sawczuk | Diretor de Projetos | swczk |
-| Leonardo Martins | Membro de Projetos/Financeiro | leohsm |
-| Alexssander Iaruchewski | Projetos | AlexssanderJs |
-| Luan Costa | Projetos | Rasec |
-| Marlon Meireles | Projetos | Maexar |
-| Nicolas Brunismann | Acessor Projetos | NicoDemosaS |
-| Ana Vitória Apolinario | Diretora RH | anavp111 |
-| João Victor Gomes | Presidente | garra400 |
-| Felipe Sousa da Costa | Projetos | Felipe205b |
+| Nome                         | Cargo                         | Nick          |
+| ---------------------------- | ----------------------------- | ------------- |
+| Pedro Sawczuk                | Diretor de Projetos           | swczk         |
+| Leonardo Martins             | Membro de Projetos/Financeiro | leohsm        |
+| Alexssander Iaruchewski      | Projetos                      | AlexssanderJs |
+| Luan Costa                   | Projetos                      | Rasec         |
+| Marlon Meireles              | Projetos                      | Maexar        |
+| Nicolas Brunismann           | Acessor Projetos              | NicoDemosaS   |
+| Ana Vitória Apolinario       | Diretora RH                   | anavp111      |
+| João Victor Gomes            | Presidente                    | garra400      |
+| Felipe Sousa da Costa        | Projetos                      | Felipe205b    |
+| Kauã Henrique Magalhães Luiz | Projetos                      | Magalhaes-K   |
 
 ---
 
@@ -31,6 +32,7 @@ Para adicionar seu nome à lista de contributors:
 5. Abra um Pull Request
 
 ### ⚠️ Importante
+
 - **Sempre adicione seu nome ABAIXO dos nomes já existentes**
 - Mantenha o formato da tabela: `| Nome | Cargo | Nick |`
 - **Nome**: Use apenas primeiro e último nome (ex: João Gomes)
@@ -38,6 +40,6 @@ Para adicionar seu nome à lista de contributors:
 
 ---
 
-*Obrigado por contribuir com o projeto! 🎉*
+_Obrigado por contribuir com o projeto! 🎉_
 
 michel initial commit
